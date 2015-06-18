@@ -58,7 +58,7 @@ class DefaultController extends Controller
         if ($model->load(Yii::$app->request->post())) {
 
             $uploadedFile = UploadedFile::getInstance($model, 'tmpImage');
-            if (false/*$uploadedFile !== null*/) {
+            if ($uploadedFile !== null) {
                 $path = Yii::$app->params['uploadPath']
                     . Yii::$app->security->generateRandomString()
                     . '.' . $uploadedFile->extension;
@@ -67,7 +67,7 @@ class DefaultController extends Controller
                     $uploadedFile->saveAs(mb_substr($model->category_image, 1));
                 }
             }
-            if (true/*$model->save()*/) {
+            if ($model->save()) {
                 if ($uploadedFile !== null) {
                 }
                 return $this->redirect(['index']);
@@ -94,7 +94,7 @@ class DefaultController extends Controller
         if ($model->load(Yii::$app->request->post())) {
 
             $uploadedFile = UploadedFile::getInstance($model, 'tmpImage');
-            if (false/*$uploadedFile*/) {
+            if ($uploadedFile) {
                 $path = Yii::$app->params['uploadPath']
                     . Yii::$app->security->generateRandomString()
                     . '.' . $uploadedFile->extension;
@@ -103,7 +103,7 @@ class DefaultController extends Controller
                     $uploadedFile->saveAs(mb_substr($model->category_image, 1));
                 }
             }
-            if (true/*$model->save()*/) {
+            if ($model->save()) {
                 return $this->redirect(['index']);
             } else {
 
@@ -124,7 +124,7 @@ class DefaultController extends Controller
     public function actionDelete($id)
     {
         $file = mb_substr($this->findModel($id)->category_image,1);
-        if (false/*$this->findModel($id)->delete()*/)
+        if ($this->findModel($id)->delete())
         {
             unlink($file);
         }
