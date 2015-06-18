@@ -14,7 +14,7 @@ INSTALLATION
 
 ### Install from an Archive File
 
-Extract the archive file downloaded from [GitHub project page](https://github.com/p0vidl0/yii2-examples) to
+Extract the archive file downloaded from [BitBucket project page](https://bitbucket.org/p0vidl0/yii2-examples) to
 a directory named `examples` that is directly under the Web root.
 
 You can then access the application through the following URL:
