@@ -1,0 +1,242 @@
+2016-06-07 19:56:31 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in D:\Osman\OpenServer\domains\yii2-examples\views\layouts\admin_main.php:113
+    in D:\Osman\OpenServer\domains\yii2-examples\modules\yii2pjax\controllers\DefaultController.php:13
+2016-06-07 19:56:30 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-examples:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.8,en;q=0.6'
+    'PATH' => 'd:\\osman\\openserver\\modules\\php\\PHP-5.6\\ext;d:\\osman\\openserver\\modules\\php\\PHP-5.6\\pear;d:\\osman\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;d:\\osman\\openserver\\modules\\php\\PHP-5.6;d:\\osman\\openserver\\modules\\imagemagick;d:\\osman\\openserver\\modules\\wget\\bin;d:\\osman\\openserver\\modules\\git;d:\\osman\\openserver\\modules\\git\\bin;d:\\osman\\openserver\\modules\\git\\mingw\\bin;d:\\osman\\openserver\\modules\\git\\cmd;d:\\osman\\openserver\\modules\\database\\MySQL-5.5\\bin;d:\\osman\\openserver\\modules\\http\\Apache-2.4\\bin;d:\\osman\\openserver\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2-examples'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Osman/OpenServer/domains/yii2-examples'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Osman/OpenServer/domains/yii2-examples'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/Osman/OpenServer/domains/yii2-examples/web/index.php'
+    'REMOTE_PORT' => '30470'
+    'REDIRECT_URL' => '/web/yii2pjax/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/yii2pjax/index'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1465318590.295
+    'REQUEST_TIME' => 1465318590
+    'argv' => []
+    'argc' => 0
+]
+2016-06-07 19:56:38 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in D:\Osman\OpenServer\domains\yii2-examples\views\layouts\admin_main.php:113
+    in D:\Osman\OpenServer\domains\yii2-examples\modules\simplegridview\controllers\DefaultController.php:34
+2016-06-07 19:56:37 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'b0cd3b8659cecc6127301905d1ad5d046c4d97879042cc802694a3f817e74c8ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"34L_8wd2eBXFn-VFU767tQSWLVL-Tu7W\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-examples:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii2-examples:8080/web/yii2pjax/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=b0cd3b8659cecc6127301905d1ad5d046c4d97879042cc802694a3f817e74c8ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2234L_8wd2eBXFn-VFU767tQSWLVL-Tu7W%22%3B%7D'
+    'PATH' => 'd:\\osman\\openserver\\modules\\php\\PHP-5.6\\ext;d:\\osman\\openserver\\modules\\php\\PHP-5.6\\pear;d:\\osman\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;d:\\osman\\openserver\\modules\\php\\PHP-5.6;d:\\osman\\openserver\\modules\\imagemagick;d:\\osman\\openserver\\modules\\wget\\bin;d:\\osman\\openserver\\modules\\git;d:\\osman\\openserver\\modules\\git\\bin;d:\\osman\\openserver\\modules\\git\\mingw\\bin;d:\\osman\\openserver\\modules\\git\\cmd;d:\\osman\\openserver\\modules\\database\\MySQL-5.5\\bin;d:\\osman\\openserver\\modules\\http\\Apache-2.4\\bin;d:\\osman\\openserver\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2-examples'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Osman/OpenServer/domains/yii2-examples'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Osman/OpenServer/domains/yii2-examples'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/Osman/OpenServer/domains/yii2-examples/web/index.php'
+    'REMOTE_PORT' => '30469'
+    'REDIRECT_URL' => '/web/simplegridview/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/simplegridview/index'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1465318597.087
+    'REQUEST_TIME' => 1465318597
+    'argv' => []
+    'argc' => 0
+]
+2016-06-07 19:56:47 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in D:\Osman\OpenServer\domains\yii2-examples\views\layouts\admin_main.php:113
+    in D:\Osman\OpenServer\domains\yii2-examples\modules\simplegridview\controllers\DefaultController.php:34
+2016-06-07 19:56:44 [127.0.0.1][-][-][info][application] $_GET = [
+    'page' => '2'
+]
+
+$_COOKIE = [
+    '_csrf' => 'b0cd3b8659cecc6127301905d1ad5d046c4d97879042cc802694a3f817e74c8ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"34L_8wd2eBXFn-VFU767tQSWLVL-Tu7W\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-examples:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii2-examples:8080/web/simplegridview/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=b0cd3b8659cecc6127301905d1ad5d046c4d97879042cc802694a3f817e74c8ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2234L_8wd2eBXFn-VFU767tQSWLVL-Tu7W%22%3B%7D'
+    'PATH' => 'd:\\osman\\openserver\\modules\\php\\PHP-5.6\\ext;d:\\osman\\openserver\\modules\\php\\PHP-5.6\\pear;d:\\osman\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;d:\\osman\\openserver\\modules\\php\\PHP-5.6;d:\\osman\\openserver\\modules\\imagemagick;d:\\osman\\openserver\\modules\\wget\\bin;d:\\osman\\openserver\\modules\\git;d:\\osman\\openserver\\modules\\git\\bin;d:\\osman\\openserver\\modules\\git\\mingw\\bin;d:\\osman\\openserver\\modules\\git\\cmd;d:\\osman\\openserver\\modules\\database\\MySQL-5.5\\bin;d:\\osman\\openserver\\modules\\http\\Apache-2.4\\bin;d:\\osman\\openserver\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2-examples'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Osman/OpenServer/domains/yii2-examples'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Osman/OpenServer/domains/yii2-examples'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/Osman/OpenServer/domains/yii2-examples/web/index.php'
+    'REMOTE_PORT' => '30469'
+    'REDIRECT_QUERY_STRING' => 'page=2'
+    'REDIRECT_URL' => '/web/simplegridview/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'page=2'
+    'REQUEST_URI' => '/web/simplegridview/index?page=2'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1465318604.386
+    'REQUEST_TIME' => 1465318604
+    'argv' => [
+        0 => 'page=2'
+    ]
+    'argc' => 1
+]
+2016-06-07 19:56:52 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in D:\Osman\OpenServer\domains\yii2-examples\views\layouts\admin_main.php:113
+    in D:\Osman\OpenServer\domains\yii2-examples\modules\simplegridview\controllers\DefaultController.php:81
+2016-06-07 19:56:50 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'b0cd3b8659cecc6127301905d1ad5d046c4d97879042cc802694a3f817e74c8ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"34L_8wd2eBXFn-VFU767tQSWLVL-Tu7W\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-examples:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii2-examples:8080/web/simplegridview/index?page=2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=b0cd3b8659cecc6127301905d1ad5d046c4d97879042cc802694a3f817e74c8ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2234L_8wd2eBXFn-VFU767tQSWLVL-Tu7W%22%3B%7D'
+    'PATH' => 'd:\\osman\\openserver\\modules\\php\\PHP-5.6\\ext;d:\\osman\\openserver\\modules\\php\\PHP-5.6\\pear;d:\\osman\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;d:\\osman\\openserver\\modules\\php\\PHP-5.6;d:\\osman\\openserver\\modules\\imagemagick;d:\\osman\\openserver\\modules\\wget\\bin;d:\\osman\\openserver\\modules\\git;d:\\osman\\openserver\\modules\\git\\bin;d:\\osman\\openserver\\modules\\git\\mingw\\bin;d:\\osman\\openserver\\modules\\git\\cmd;d:\\osman\\openserver\\modules\\database\\MySQL-5.5\\bin;d:\\osman\\openserver\\modules\\http\\Apache-2.4\\bin;d:\\osman\\openserver\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2-examples'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Osman/OpenServer/domains/yii2-examples'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Osman/OpenServer/domains/yii2-examples'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/Osman/OpenServer/domains/yii2-examples/web/index.php'
+    'REMOTE_PORT' => '30473'
+    'REDIRECT_URL' => '/web/simplegridview/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/simplegridview/create'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1465318610.365
+    'REQUEST_TIME' => 1465318610
+    'argv' => []
+    'argc' => 0
+]
+2016-06-07 19:57:35 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in D:\Osman\OpenServer\domains\yii2-examples\views\layouts\admin_main.php:113
+    in D:\Osman\OpenServer\domains\yii2-examples\modules\simplegridview\controllers\DefaultController.php:34
+2016-06-07 19:57:33 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'b0cd3b8659cecc6127301905d1ad5d046c4d97879042cc802694a3f817e74c8ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"34L_8wd2eBXFn-VFU767tQSWLVL-Tu7W\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2-examples:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36'
+    'HTTP_REFERER' => 'http://yii2-examples:8080/web/simplegridview/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=b0cd3b8659cecc6127301905d1ad5d046c4d97879042cc802694a3f817e74c8ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2234L_8wd2eBXFn-VFU767tQSWLVL-Tu7W%22%3B%7D'
+    'PATH' => 'd:\\osman\\openserver\\modules\\php\\PHP-5.6\\ext;d:\\osman\\openserver\\modules\\php\\PHP-5.6\\pear;d:\\osman\\openserver\\modules\\php\\PHP-5.6\\pear\\bin;d:\\osman\\openserver\\modules\\php\\PHP-5.6;d:\\osman\\openserver\\modules\\imagemagick;d:\\osman\\openserver\\modules\\wget\\bin;d:\\osman\\openserver\\modules\\git;d:\\osman\\openserver\\modules\\git\\bin;d:\\osman\\openserver\\modules\\git\\mingw\\bin;d:\\osman\\openserver\\modules\\git\\cmd;d:\\osman\\openserver\\modules\\database\\MySQL-5.5\\bin;d:\\osman\\openserver\\modules\\http\\Apache-2.4\\bin;d:\\osman\\openserver\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32)'
+    'SERVER_NAME' => 'yii2-examples'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/Osman/OpenServer/domains/yii2-examples'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/Osman/OpenServer/domains/yii2-examples'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/Osman/OpenServer/domains/yii2-examples/web/index.php'
+    'REMOTE_PORT' => '30493'
+    'REDIRECT_URL' => '/web/simplegridview/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/simplegridview/index'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1465318653.038
+    'REQUEST_TIME' => 1465318653
+    'argv' => []
+    'argc' => 0
+]
